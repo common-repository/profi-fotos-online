@@ -1,0 +1,97 @@
+#toplevel_page_profi-fotos-online-pfo-admin .wp-menu-image {
+    padding: 5px;
+    box-sizing: border-box;
+}
+#toplevel_page_profi-fotos-online-pfo-admin .wp-menu-image img {
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: block;
+    opacity: 0.8;
+    height: auto;
+    padding: 0;
+    margin-top: 8px;
+}
+#toplevel_page_profi-fotos-online-pfo-admin.current .wp-menu-image img {
+    background: #ffffff;
+    opacity: 1;
+    padding: 2px;
+}
+#pfo-admin-wrap h1 {
+    color: #4FC1FF;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 1.5rem;
+    display: inline-block;
+}
+#pfo-admin-wrap form {
+    clear: both;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+#pfo-admin-wrap form img {
+    float: right;
+    border: 1px solid rgba(100, 100, 100, .5);
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 0 1rem 1rem;
+}
+#pfo-admin-wrap form th {
+    width: 75%;
+    padding: 10px 10px 10px 0;
+}
+#pfo-admin-wrap h2,
+#pfo-admin-wrap .alert-install,
+#pfo-admin-wrap th label {
+    color: #0099e6;
+    width: auto;
+    font-size: 1.25rem;
+}
+#pfo-admin-wrap .alert-install {
+    display: block;
+    padding: 1rem 3rem;
+    max-width: 80%;
+    line-height: 1.25em;
+}
+#pfo-admin-wrap th label small {
+    font-size: 1rem;
+}
+#pfo-admin-wrap label small {
+    display: block;
+    font-weight: 400;
+    font-size: 1em;
+    color: #555;
+    line-height: 1.375em;
+    padding-top: 5px;
+}
+#pfo-admin-wrap .pfo-in small {
+    font-weight: 400;
+}
+#pfo-admin-wrap code {
+    color: #c7254e;
+    font-size: 1.125em;
+}
+#pfo-admin-wrap .input-code {
+    color: #c7254e;
+    font-family: monospace;
+    font-size: 1.125em;
+    width: 100px;
+    text-align: center;
+}
+#pfo-admin-wrap p,
+#pfo-admin-wrap label {
+    font-size: 1rem;
+}
+#pfo-admin-wrap p.hinweis strong {
+    color: orangered;
+    text-transform: uppercase;
+}
+#pfo-admin-wrap .alert {
+    font-style: italic;
+    color: orangered;
+}
